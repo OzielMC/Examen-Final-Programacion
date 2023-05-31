@@ -1,2 +1,2 @@
 # Examen-Final-Programacion
-Examen final de la materia de Temas Selectos de Programación
+Desarrollo del examen final para la materia de Temas Selectos de Programación.
