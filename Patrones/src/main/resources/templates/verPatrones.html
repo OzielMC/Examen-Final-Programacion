@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>API de Ropa: Serving Web Content</title>
+
+<head th:replace="~{layout :: head}">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+</head>
+<body>
+	<header th:replace="~{layout :: header}"> </header>
+	<div class="container">
+		<div class="box">
+			<p th:text="'Codigo: ' + ${startPatrones.codigo} " />
+			<p th:text="'Descipcion: ' + ${startPatrones.descipcion} " />
+			<p th:text="'Id:  ' + ${startPatrones.id} " />
+			<p th:text="'Nombre: ' + ${startPatrones.nombre} " />
+			<p th:text="'Padre: ' + ${startPatrones.padre} " />
+			<p th:text="'Uso: ' + ${startPatrones.uso} " />
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+</body>
+</html>
